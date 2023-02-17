@@ -50,7 +50,7 @@ export default {
     methods: {
         ...mapMutations(["changeBtnShow", "updateMusicDetailShow", "updateCurrentTime", 'updateDuration', 'updatePlaySongIndex']),
         play() {
-            console.log("play");
+            console.log("play1");
             // 如果播放是暂停就让其播放
             // 判断其暂停属性是否为true
             if (this.$refs.audio.paused) {
